@@ -1,16 +1,24 @@
 /* ROUNDED THEME FOR ROFI */
 /* Author: Newman Sanchez (https://github.com/newmanls) */
-
 * {
-    bg0:    #fafafa;
-    bg1:    #f4f2f3;
-    bg2:    #d3d4d9;
-    bg3:    #c0c0c0;
+    /* Gruvbox Material Dark Hard */
+    bg0:    #1d2021;
+    bg1:    #282828;
+    bg2:    #32302f;
+    bg3:    #3c3836;
 
-    fg0:    #0b0014;
-    fg1:    #4c4c4c;
-    fg2:    #636363;
-    fg3:    #beb7a4;
+    fg0:    #d4be98;
+    fg1:    #ddc7a1;
+    fg2:    #a89984;
+    fg3:    #7c6f64;
+
+    red:    #ea6962;
+    green:  #a9b665;
+    yellow: #d8a657;
+    blue:   #7daea3;
+    purple: #d3869b;
+    aqua:   #89b482;
+    orange: #e78a4e;
 }
 
 /* Rounded-template start */
@@ -87,15 +95,16 @@ element {
 }
 
 element normal active {
-    text-color: @bg3;
+    text-color: @fg2;
 }
 
 element alternate active {
-    text-color: @bg3;
+    text-color: @fg2;
 }
 
 element selected normal, element selected active {
     background-color:   @bg3;
+    text-color:         @fg1;
 }
 
 element-icon {

@@ -142,11 +142,10 @@
       };
     };
 
-    # Copied from: https://github.com/mechakotik/dots/tree/main/.config/waybar
     style = ''
-      @define-color background #fafafa;
-      @define-color foreground #333333;
-      @define-color foreground-inactive #4d4d4d;
+      @define-color background #282828;
+      @define-color foreground #ddc7a1;
+      @define-color foreground-inactive #7c6f64;
 
       * {
           font-family: HackNerdFont;
@@ -175,12 +174,12 @@
       }
 
       #workspaces button.active {
-          border-bottom-color: @foreground;
+          border-bottom-color: #7daea3;
           color: @foreground;
       }
 
       tooltip {
-          background: #e1e1e1;
+          background: #32302f;
       }
 
       tooltip label {
