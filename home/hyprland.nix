@@ -51,8 +51,8 @@
       border_size = 4;
       resize_on_border = true;
 
-      "col.active_border" = "rgb(2b8be3)";
-      "col.inactive_border" = "rgb(8c8c8c)";
+      "col.active_border" = "rgb(7daea3)";
+      "col.inactive_border" = "rgb(45403d)";
 
       allow_tearing = false;
       layout = "master";
@@ -70,7 +70,7 @@
         enabled = true;
         range = 4;
         render_power = 3;
-        color = "rgba(1a1a1aee)";
+        color = "rgba(282828ee)";
       };
     };
 

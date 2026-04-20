@@ -13,7 +13,7 @@
       wallpaper = [
         {
           monitor = "";
-          path = "${./imgs/background2.jpg}";
+          path = "${./imgs/background3.jpg}";
         }
       ];
     };

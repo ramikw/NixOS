@@ -66,7 +66,7 @@
               tooltip = "Network";
             }
             {
-              label = "";
+              label = "󰂯";
               command = "blueman-manager";
               tooltip = "Bluetooth";
             }
@@ -98,26 +98,35 @@
 
       /* ── 1. Palette & Globals (Using @define-color) ──────────────────── */
 
-      @define-color theme_fg rgba(248, 248, 252, 0.98); /* Primary Text */
-      @define-color theme_fg_secondary rgba(215, 220, 225, 0.78); /* Secondary Text */
-      @define-color theme_bg rgba(22, 22, 28, 0.22); /* Panel/Background */
-      @define-color popup_bg rgba(20, 25, 25, 0.5); /* Floating Notification Background */
-      @define-color module_bg rgba(20, 20, 20, 0.46); /* Default Module Background */
-      @define-color module_hover_bg rgba(210, 215, 225, 0.35); /* Module Hover */
-      @define-color button_bg rgba(130, 135, 145, 0.28); /* Button Default */
-      @define-color button_hover_bg rgba(150, 155, 165, 0.40); /* Button Hover */
-      @define-color accent_color #1972c2; /* Accent Active */
-      @define-color accent_color_hover #198de5; /* Accent Hover */
-      @define-color border_light rgba(255, 255, 255, 0.18);
-      @define-color border_dark rgba(0, 0, 0, 0.06);
-      @define-color border_medium alpha(@border_light, 0.5); /* Approx rgba(255, 255, 255, 0.09) */
+      @define-color theme_fg #d4be98;
+      @define-color theme_fg_secondary #a89984;
+
+      @define-color theme_bg rgba(29, 32, 33, 0.92);
+      @define-color popup_bg rgba(29, 32, 33, 0.96);
+
+      @define-color module_bg rgba(40, 40, 40, 0.85);
+      @define-color module_hover_bg rgba(60, 56, 54, 0.95);
+
+      @define-color button_bg rgba(50, 48, 47, 0.85);
+      @define-color button_hover_bg rgba(60, 56, 54, 1.0);
+
+      @define-color accent_color #d8a657;
+      @define-color accent_color_hover #e0af68;
+
+      @define-color border_light rgba(168, 153, 132, 0.25);
+      @define-color border_dark rgba(0, 0, 0, 0.4);
+      @define-color border_medium rgba(168, 153, 132, 0.12);
+
       @define-color icon_primary @theme_fg;
-      @define-color icon_secondary rgba(215, 220, 225, 0.88);
-      @define-color slider_trough_bg rgba(50, 55, 65, 0.35);
-      @define-color slider_thumb_bg white;
-      @define-color close_button_bg rgba(110, 110, 115, 0.15);
-      @define-color close_button_hover_bg rgba(130, 130, 135, 0.30);
-      @define-color mpris_player_bg rgba(0, 0, 0, 0.5);
+      @define-color icon_secondary #a89984;
+
+      @define-color slider_trough_bg rgba(60, 56, 54, 0.6);
+      @define-color slider_thumb_bg #d4be98;
+
+      @define-color close_button_bg rgba(60, 56, 54, 0.6);
+      @define-color close_button_hover_bg rgba(80, 73, 69, 0.9);
+
+      @define-color mpris_player_bg rgba(29, 32, 33, 0.75);
 
       /* ── Base Reset ───────────────────────────────────────────────────── */
       * {
