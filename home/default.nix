@@ -114,6 +114,7 @@
       sqlite
       tree-sitter
       vscode-extensions.vadimcn.vscode-lldb
+      watchman # Used for Neovim roslyn watch plugin
 
       # Neovim lsps and treesitter
       bash-language-server
