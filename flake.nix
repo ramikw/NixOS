@@ -51,6 +51,7 @@
               home-manager.useUserPackages = true;
               home-manager.extraSpecialArgs = {
                 username = username;
+                hostName = hostName;
               };
               home-manager.users.${username} = {
                 imports = [

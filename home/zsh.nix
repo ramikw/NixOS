@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ pkgs, hostName, config, ... }:
 {
   programs.zsh = {
     enable = true;
@@ -22,7 +22,7 @@
 
     shellAliases = {
       update = "sudo nixos-rebuild switch";
-      upgrade = "sudo nix flake update && sudo nixos-rebuild switch --upgrade";
+      upgrade = "sudo nix flake update && sudo nixos-rebuild --flake /etc/nixos#${hostName} switch --upgrade";
       clean = "sudo nix-collect-garbage --delete-old; sudo /run/current-system/bin/switch-to-configuration boot";
       tx = "tmuxinator";
       restart-hyprlock = "hyprctl --instance 0 'dispatch exec hyprlock'";
