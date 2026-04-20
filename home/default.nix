@@ -45,7 +45,7 @@
 
   programs.kitty = {
     enable = true;
-    themeFile = "Hybrid";
+    themeFile = "GruvboxMaterialDarkHard";
     settings = {
       font_family = "HackNerdFont";
       font_size = 12;

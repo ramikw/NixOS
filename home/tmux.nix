@@ -67,21 +67,21 @@
       # Theme
       set -g status-justify "left"
       set -g status-left-style "none"
-      set -g message-command-style "fg=#ffffff,bg=#818181"
+      set -g message-command-style "fg=#ddc7a1,bg=#45403d"
       set -g status-right-style "none"
-      set -g pane-active-border-style "fg=#ffffff"
-      set -g status-style "none,bg=#818181"
-      set -g message-style "fg=#ffffff,bg=#818181"
-      set -g pane-border-style "fg=#818181"
+      set -g pane-active-border-style "fg=#7daea3"
+      set -g status-style "none,bg=#282828"
+      set -g message-style "fg=#ddc7a1,bg=#45403d"
+      set -g pane-border-style "fg=#45403d"
       set -g status-right-length "100"
       set -g status-left-length "100"
       setw -g window-status-activity-style "none"
       setw -g window-status-separator ""
-      setw -g window-status-style "none,fg=#818181,bg=#818181"
-      set -g status-left "#[fg=#000000,bg=#dadada] #S #[fg=#dadada,bg=#818181,nobold,nounderscore,noitalics]"
-      set -g status-right "#{prefix_highlight} #[fg=#dadada]#[fg=#1d1f21,bg=#dadada] %H:%M "
-      setw -g window-status-format "#[fg=#818181,bg=#383838]#[fg=#ffffff,bg=#383838] #I | #W #[fg=#383838,bg=#818181]"
-      setw -g window-status-current-format "#[fg=#818181,bg=#80a1be]#[fg=#1d1e20,bg=#80a1be] #I | #W #[fg=#80a1be,bg=#818181]"
-    '';
+      setw -g window-status-style "none,fg=#7c6f64,bg=#282828"
+      set -g status-left "#[fg=#1d2021,bg=#a9b665] #S #[fg=#a9b665,bg=#282828,nobold,nounderscore,noitalics]"
+      set -g status-right "#{prefix_highlight} #[fg=#45403d]#[fg=#ddc7a1,bg=#45403d] %H:%M "
+      setw -g window-status-format "#[fg=#282828,bg=#32302f]#[fg=#ddc7a1,bg=#32302f] #I | #W #[fg=#32302f,bg=#282828]"
+      setw -g window-status-current-format "#[fg=#282828,bg=#7daea3]#[fg=#1d2021,bg=#7daea3] #I | #W #[fg=#7daea3,bg=#282828]"
+      '';
   };
 }

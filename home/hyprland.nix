@@ -189,7 +189,7 @@
       "no_focus on, match:class ^(xwaylandvideobridge)$"
 
       # Kitty
-      "opacity 0.94, match:class ^kitty$"
+      "opacity 0.96, match:class ^kitty$"
     ];
 
     layerrule = [
