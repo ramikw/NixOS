@@ -98,6 +98,7 @@
       delta
       docker-compose
       dotnet-sdk_10
+      fswatch # Used for Neovim roslyn watch plugin
       fzf
       gcc
       grcov
@@ -114,7 +115,6 @@
       sqlite
       tree-sitter
       vscode-extensions.vadimcn.vscode-lldb
-      watchman # Used for Neovim roslyn watch plugin
 
       # Neovim lsps and treesitter
       bash-language-server
