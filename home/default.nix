@@ -93,6 +93,7 @@
       azurite
       bicep
       cargo
+      claude-code
       clippy
       csharpier
       delta
