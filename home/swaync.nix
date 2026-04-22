@@ -336,6 +336,9 @@
         border-radius: 18px;
         background-color: @module_hover_bg;
       }
+      .control-center .notification-row:hover .notification .time {
+        opacity: 0;
+      }
       .control-center .notification .summary {
         font-weight: 600;
         color: @theme_fg;
@@ -362,12 +365,10 @@
         background-color: @close_button_hover_bg;
       }
       .control-center .close-button image {
-          margin-right: 12px; /* Adjust this value for desired spacing */
         color: @icon_secondary;
       }
 
       .control-center .notification image {
-        margin-right: 12px; /* Space between image and text */
         min-width: 36px;    /* Define a minimum width */
         min-height: 36px;   /* Define a minimum height */
         /* Add or adjust the border-radius property here */
@@ -375,7 +376,7 @@
       }
       /* ── 8. Floating Notifications ─────────────────────────────────── */
       .floating-notifications .notification-row {
-        margin-bottom: 12px;
+        margin-bottom: 16px;
       }
       .floating-notifications .notification-background {
         background-color: @popup_bg;
@@ -391,19 +392,17 @@
       .floating-notifications .notification .summary {
         font-weight: 700;
         color: @theme_fg;
+        margin-right: 25px;
+        margin-top: 4px;
       }
       .floating-notifications .notification .body {
         color: @theme_fg;
-      }
-      .floating-notifications .notification .time {
-        font-size: 15px;
-        color: @icon_secondary;
-        margin-left: 10px;
+        margin-right: 25px;
+        margin-top: 4px;
       }
       .floating-notifications .notification image {
         min-width: 48px;
         min-height: 48px;
-        margin-right: 14px;
         border-radius: 10px;
       }
       .floating-notifications .close-button {
@@ -417,7 +416,6 @@
         background-color: @close_button_hover_bg;
       }
       .floating-notifications .close-button image {
-          margin-right: 12px; /* Adjust this value for desired spacing */
         color: @icon_secondary;
       }
       .floating-notifications .notification-alt-actions {

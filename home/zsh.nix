@@ -21,7 +21,7 @@
     ];
 
     shellAliases = {
-      update = "sudo nixos-rebuild switch";
+      update = "sudo nixos-rebuild switch --flake /etc/nixos#${hostName}";
       upgrade = "sudo nix flake update && sudo nixos-rebuild --flake /etc/nixos#${hostName} switch";
       clean = "sudo nix-collect-garbage --delete-old; sudo /run/current-system/bin/switch-to-configuration boot";
       tx = "tmuxinator";
