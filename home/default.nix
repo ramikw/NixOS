@@ -149,6 +149,7 @@
       hyprpaper
       hyprpicker
       hyprpolkitagent
+      hyprshutdown
       nwg-look
       pavucontrol
       playerctl
