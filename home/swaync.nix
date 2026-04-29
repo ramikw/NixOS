@@ -369,6 +369,7 @@
       }
 
       .control-center .notification image {
+        margin-right: 16px;
         min-width: 36px;    /* Define a minimum width */
         min-height: 36px;   /* Define a minimum height */
         /* Add or adjust the border-radius property here */
@@ -401,6 +402,7 @@
         margin-top: 4px;
       }
       .floating-notifications .notification image {
+        margin-right: 16px;
         min-width: 48px;
         min-height: 48px;
         border-radius: 10px;
