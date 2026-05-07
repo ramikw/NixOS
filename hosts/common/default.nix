@@ -55,7 +55,10 @@
   networking.networkmanager.enable = true;
   networking.firewall = {
     enable = true;
-    allowedTCPPorts = [ 1420 ]; # Tauri
+    allowedTCPPorts = [
+      1420 # Tauri
+      5078 # Brainy-Backend
+    ];
   };
 
   # Other
