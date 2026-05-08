@@ -31,12 +31,19 @@
     '';
   };
 
+  # VMWare
+  virtualisation.vmware.host.enable = true;
+
   # This and the kernal param "acpi_osi=\"!Windows 2015\"" fixes sleep issues for Gigabyte.
   # https://wiki.archlinux.org/title/Power_management/Wakeup_triggers#Gigabyte_motherboards
   services.udev.extraRules = ''
     ACTION=="add", SUBSYSTEM=="pci", DRIVER=="pcieport", ATTR{power/wakeup}="disabled"
     ACTION=="add" SUBSYSTEM=="pci" ATTR{vendor}=="0x1022" ATTR{device}=="0x1483" ATTR{power/wakeup}="disabled"
   '';
+
+  systemd.tmpfiles.rules = [
+    "d /mnt/hdd 0755 ramikw users -"
+  ];
 
   services.solaar = {
     enable = true;
