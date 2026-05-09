@@ -89,6 +89,7 @@
       papers
       simple-scan
 
+      act
       azure-cli
       azurite
       bicep
