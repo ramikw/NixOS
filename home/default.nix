@@ -108,6 +108,7 @@
       jdk
       kubectl
       minikube
+      mkdocs
       nodejs
       postman
       protobuf_29
