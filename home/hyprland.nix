@@ -164,7 +164,6 @@
       "float on, match:class clipse"
       "size 622 652, match:class clipse"
       "stay_focused on, match:class clipse"
-      "opacity 0.9 override, match:class ^clipse$"
 
       # Calculator
       "float on, match:title Calculator"
@@ -187,9 +186,6 @@
       "max_size 1 1, match:class ^(xwaylandvideobridge)$"
       "no_blur on, match:class ^(xwaylandvideobridge)$"
       "no_focus on, match:class ^(xwaylandvideobridge)$"
-
-      # Kitty
-      "opacity 0.96, match:class ^kitty$"
     ];
 
     layerrule = [
