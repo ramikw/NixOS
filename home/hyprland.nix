@@ -216,8 +216,8 @@
       "$mainMod, SPACE, exec, rofi -show drun"
       "ALT, F4, exec, rofi -show power-menu --no-text -modi power-menu:${./rofi/config/rofi-power-menu}"
       "$mainMod, code:60, exec, rofi -modi emoji -show emoji -emoji-mode insert_no_copy -emoji-format '{emoji}' -theme-str \"listview { columns: 5; }\""
-      '', Print, exec, grim -g "$(slurp -c 00000000 -d)" - | wl-copy''
-      ''$mainMod SHIFT, S, exec, grim -g "$(slurp -c 00000000 -d)" - | wl-copy''
+      ", Print, exec, grimblast --freeze copy area"
+      "$mainMod SHIFT, S, exec, grimblast --freeze copy area"
       "SUPER, V, exec, kitty --class clipse -e clipse"
       "SUPER, N, exec, swaync-client -t -sw"
 

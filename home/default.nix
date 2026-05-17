@@ -157,8 +157,7 @@
       playerctl
 
       # Screenshot
-      grim
-      slurp
+      grimblast
     ];
 
   home.sessionVariables = {
