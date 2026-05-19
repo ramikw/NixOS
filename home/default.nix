@@ -56,13 +56,13 @@
   home.packages =
     with pkgs;
     lib.mkBefore [
-      tmuxinator
-
+      # Libreoffice
       hunspell
-      hunspellDicts.nb_NO
       hunspellDicts.en_US
+      hunspellDicts.nb_NO
       libreoffice
 
+      # Other GUI apps
       anki
       discord
       drawio
@@ -74,6 +74,7 @@
       vlc
       vscode
 
+      # Essential desktop apps
       baobab # Disk Usage Analyzer
       gnome-calculator
       gnome-characters
@@ -89,6 +90,7 @@
       papers
       simple-scan
 
+      # Programming
       act
       azure-cli
       azurite
@@ -100,7 +102,6 @@
       delta
       docker-compose
       dotnet-sdk_10
-      fswatch # Used for Neovim roslyn watch plugin
       fzf
       gcc
       grcov
@@ -116,6 +117,8 @@
       rustc
       rustfmt
       sqlite
+      sqlitebrowser
+      tmuxinator
       tree-sitter
       vscode-extensions.vadimcn.vscode-lldb
 
@@ -126,6 +129,7 @@
       dockerfile-language-server
       emmet-ls
       eslint
+      fswatch # Used for Neovim roslyn watch plugin
       gdb
       hyprls
       jdt-language-server
@@ -155,9 +159,7 @@
       nwg-look
       pavucontrol
       playerctl
-
-      # Screenshot
-      grimblast
+      grimblast # Screenshot
     ];
 
   home.sessionVariables = {
