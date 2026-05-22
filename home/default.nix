@@ -101,6 +101,7 @@
       csharpier
       delta
       docker-compose
+      dotnet-ef
       dotnet-sdk_10
       fzf
       gcc
