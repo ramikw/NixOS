@@ -103,6 +103,7 @@
       docker-compose
       dotnet-ef
       dotnet-sdk_10
+      flatpak-builder
       fzf
       gcc
       grcov
